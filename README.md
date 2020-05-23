@@ -1,7 +1,7 @@
 # Wireless Data Logging Platform for Human Temperature and Pulse Rate with Networked Mobile Nodes
 
 <p align="center">
-<img src="images/device.jpg" height="400">
+<img src="images/device.jpg" height="250">
 <p>
 
 This is an undergraduate thesis made by Anthony E. Raterta as a requirement for the Degree Bachelor of Science in Electronics and Communications Engineering. 
@@ -24,7 +24,7 @@ The following are the specific objectives of this study:
 The operation of the system imposed is shown in the image below. It contains simplified illustration of the two major parts, the mobile sensor node which may be of any number but for the study, the researcher only made two nodes. The other major part of the system is the receiver node which receives the packets sent by both sensor nodes and dummy nodes.
 
 <p align="center">
-<img src="images/flow.png" height="400">
+<img src="images/flow.png" height="500">
 <p>
 
 ### Block Diagram
@@ -32,7 +32,7 @@ The operation of the system imposed is shown in the image below. It contains sim
 Shown in the image below is the physical architecture of the system designed to gather temperature and pulse rate of a patient at an interval set. A single sensor node is composed of an MLX90614 infrared thermometer and an infrared based Grove ear-clip pulse rate sensor.  These modules serve as input devices to an ATmega328p microcontroller unit with a CC1101 RF transceiver working at 433 mega hertz frequency band connected into it and to have the data gathered transmitted into the receiver node which is composed of a CC1101 RF transceiver, an Arduino UNO and a personal computer or a laptop. The microcontroller unit serves as a bridge to have the gathered data stored into the PC or the database pool.
 
 <p align="center">
-<img src="images/block-diagram.png" height="400">
+<img src="images/block-diagram.png" height="500">
 <p>
 
 
@@ -63,7 +63,7 @@ Shown in the image below is the physical architecture of the system designed to 
 ###### Mobile Node
 
 <p align="center">
-<img src="images/bpcb-layout.png" height="400">
+<img src="images/pcb-layout.png" height="400">
 <p>
 
 ###### Receiver Node
