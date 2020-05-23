@@ -71,3 +71,8 @@ Shown in the image below is the physical architecture of the system designed to 
 <p align="center">
 <img src="images/receiver.png" height="400">
 <p>
+
+
+> 📘 Info
+> 
+> Check the [Paperworks](https://github.com/aeraterta/CC1101-WirelessLogger/tree/master/Paperworks) directory for the detailed documentation of the project.
