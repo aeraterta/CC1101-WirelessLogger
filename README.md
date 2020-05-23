@@ -1,5 +1,9 @@
 # Wireless Data Logging Platform for Human Temperature and Pulse Rate with Networked Mobile Nodes
 
+<p align="center">
+<img src="images/device.jpg" height="400">
+<p>
+
 This is an undergraduate thesis made by Anthony E. Raterta as a requirement for the Degree Bachelor of Science in Electronics and Communications Engineering. 
 
 ## Objectives
@@ -45,3 +49,25 @@ Shown in the image below is the physical architecture of the system designed to 
 5. Power Supply - The devices uses the ADP1621 SEPIC Converter which supplies a constant 3.3 volts output despite the diminishing value of input voltage ranging from 5 – 3 volts. Such circuit is ideal for mobile data loggers because of its capability of regulating and boosting input voltages.
 
 6. Power Source - Since the main power supply needed for the device needs input voltage ranging from 3 to 5 volts, a mobile phone battery is a good option for such application. 
+
+## Device
+
+### PCB Layout Plan
+
+<p align="center">
+<img src="images/pcb-arrangement.png" height="400">
+<p>
+
+### PCB Layout vs Actual
+
+###### Mobile Node
+
+<p align="center">
+<img src="images/bpcb-layout.png" height="400">
+<p>
+
+###### Receiver Node
+
+<p align="center">
+<img src="images/receiver.png" height="400">
+<p>
