@@ -1,0 +1,23 @@
+name: Zip and Publish Repository
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Zip repository
+        run: zip -r repository.zip .
+
+      - name: Publish artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: repository-artifact
+          path: repository.zip
